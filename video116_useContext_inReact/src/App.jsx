@@ -4,7 +4,6 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import { counterContext } from './context/context'
-import { createContext } from "react";
 
 function App() {
   const [count, setCount] = useState(0)
